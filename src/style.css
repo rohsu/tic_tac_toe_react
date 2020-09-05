@@ -1,0 +1,41 @@
+.square {
+  background-color: #FFF;
+  border: 2px solid #CCC;
+  font-size: 24px;
+  float: left;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  width: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+}
+
+.board-row:after {
+  clear:both;
+  content: "";
+  display: block;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+.buttonDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  margin-top: 5px;
+  padding: 5px;
+  border: 1px solid #CCC;
+  border-radius: 5px;
+}
